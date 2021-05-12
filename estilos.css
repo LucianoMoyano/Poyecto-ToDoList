@@ -1,0 +1,92 @@
+/* 1 */
+* {
+    box-sizing: border-box;
+}
+/* 2 */
+body {
+    text-align: center;
+    background-color: rgba(15,38,73,.95);
+}
+/* 2 */
+h1 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+} 
+h2{
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+p{
+color: white;
+    font-family: Montserrat, sans-serif;
+}
+/* 3 */
+ .input_div {
+    margin: 25px;
+} 
+/* 4 */
+.input {
+    padding: 0px 20px;
+    height: 50px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+    width: 450px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+/* 5 */
+.boton_agregar {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    margin: 5px;
+    background-color:rgb(255, 6, 46);
+ }
+
+/* 5 */
+.boton_agregar:hover {
+    opacity: 0.9;
+}
+/* 6 */
+.item_input {
+    background: none;
+    outline: none;
+    color: #fff;
+    border: white 1px solid;
+    width: 350px;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 50px;
+    padding: 0px 20px;
+}
+/* 7 */
+ .item {
+    margin-bottom: 10px;
+} 
+/* 8 */
+.boton_editar {
+    font-size: 1.4rem;
+    margin: 0 5px;
+    font-family: Montserrat, sans-serif;
+    background: none;
+    outline: none;
+    color: #62d0ff;
+    border: none;
+} 
+/* 9 */
+ .boton_remover {
+    margin: 0 5px;
+    background-color:rgb(255, 6, 46);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+ 
